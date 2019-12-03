@@ -1,0 +1,22 @@
+package ufpb.br;
+
+public class TelaProjeto {
+
+	private FabricaAbstrata fabricaAbstrata;
+
+	public void setFabrica(FabricaAbstrata fabricaAbstrata) {
+		this.fabricaAbstrata = fabricaAbstrata;
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void montar() {
+		// TODO Auto-generated method stub
+		
+	}
+ 
+	public String desenhar() {
+		return null;
+		
+	}
+}

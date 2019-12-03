@@ -1,0 +1,18 @@
+package ufpb.br;
+
+public class TelaProjeto {
+
+	public void SetFabrica(FabricaWindows fabricaWindows) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void Montar() {
+		// TODO Auto-generated method stub
+		
+	}
+ 
+	public void Desenhar() {
+		
+	}
+}

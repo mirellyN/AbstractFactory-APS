@@ -1,0 +1,19 @@
+package ufpb.br;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteTelaProjeto {
+
+	@Test
+	void CriarTela() {
+		TelaProjeto t = new TelaProjeto();
+		t.setFabrica(new FabricaWindows());
+		t.montar();
+		assertEquals("JanelaWindows{ MenuWindows, BotaoWindows }", t.desenhar());
+		t.desenhar();
+	}
+
+}
